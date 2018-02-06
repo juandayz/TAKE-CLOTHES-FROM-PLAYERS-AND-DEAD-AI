@@ -42,11 +42,7 @@ if (_Body_Clothes in Skins_For_TakeClothes) then {
   
 if ((_CurrentPlayerSkin == _Body_Clothes) && (typeOf player in Skins_For_TakeClothes)) exitWith {_body setVariable["clothesTaken",false,false];format["You alredy are using a %1 skin",_Body_Clothes] call dayz_rollingMessages;dayz_actionInProgress = false;};
 if (typeOf player in DayZ_Female) exitWith {_body setVariable["clothesTaken",false,false];format["Skin %1 does not allow female characters",_Body_Clothes] call dayz_rollingMessages;dayz_actionInProgress = false;};
-  
 _group = createGroup west;
-_oldGroup = group player;
-_leader = (player == leader _oldGroup);
- 
 [dayz_playerUID,dayz_characterID,_Body_Clothes] call player_humanityMorph;
 [player] joinSilent _group;
  
