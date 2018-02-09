@@ -61,7 +61,7 @@ private ["_group"];
 if !(PVCDZ_plr_Login2 select 4) exitWith {
 #include "functions\finish.sqf"
 #include "functions\cleanup.sqf"
-f (typeOf player in Skins_For_TakeClothes) then {
+if (typeOf player in Skins_For_TakeClothes) then {
 _group = createGroup west;
 [player] joinSilent _group;
 };
