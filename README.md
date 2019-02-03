@@ -1,5 +1,7 @@
 # TAKE-CLOTHES-FROM-PLAYERS-AND-DEAD-AI
 
+PLEASE DONATE: https://github.com/juandayz/TAKE-CLOTHES-FROM-PLAYERS-AND-DEAD-AI/blob/master/DONATION.md
+
 The Install guide was writing thinking that you already have ESSV3 and Takeclothes.  You can use it without that mods but im lazy today to write how.
 
 Based on Zabns take clothes. Tnks @nova for the help and idea!
